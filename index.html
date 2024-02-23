@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LA CAPIBARA</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Leaflet CSS -->
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <img src="https://images3.memedroid.com/images/UPLOADED460/63d07964be189.jpeg"
+
+         alt="Capibara Molona"  
+
+         width="400">
+
+    <br>
+
+    <div class="bloque1">
+
+      <h1>LA CAPIBARA</h1>
+
+      <h2>Origen de la Capibara</h2>
+
+      <p>La capibara es el roedor más grande de América del Sur, con una historia que se remonta al periodo del Mioceno. Su adaptación al agua y comportamiento social en grupos familiares son características destacadas. Aunque han sido cazadas en la historia, hoy en día se valoran por su papel en los ecosistemas acuáticos y son objeto de algunas iniciativas de conservación.</p>
+
+    </div>
+
+    <div class="bloque2">
+
+      <h2>INFORMACIÓN SOBRE LA CAPIBARA</h2>
+
+      <h3>Alimento:</h3>
+
+      <p>Las capibaras se alimentan principalmente de una variedad de alimentos vegetales. Aquí tienes tres tipos de alimentos que suelen formar parte de la dieta de las capibaras:</p>
+
+      <ol>
+
+        <li>Hierbas y Pasto</li>
+
+        <li>Plantas Acuáticas</li>
+
+        <li>Frutas y Vegetales</li>
+
+      </ol>
+
+      <h2>Localización de las capibaras</h2>
+
+      <h3>Localización y hábitat natural</h3>
+
+      <p>Las capibaras son nativas de América del Sur y se encuentran en una variedad de hábitats acuáticos y cercanos al agua en regiones tropicales y subtropicales. Su hábitat natural incluye:</p>
+
+      <ol>
+
+        <li><a href=https://es.wikipedia.org/wiki/Hydrochoerus_hydrochaeris>Enlace 1</a></li>
+        
+
+        <li><a href=https://biota.wordpress.com/category/capibaras/>Enlace 2</a></li>
+
+        <li><a href=https://www.ecologiaverde.com/capibara-caracteristicas-habitat-y-alimentacion-4037.html>Enlace 3</a></li>
+
+      </ol>
+
+    </div>
+
+    <button onclick="mostrarCreditos()">CRÉDITOS</button>
+
+    <button onclick="ocultarSeccion()">ocultar</button>
+
+    <button onclick="MostrarSeccion()">mostrar</button>
+
+    <button onclick="cambiarColorFondo()">cambiar color</button>
+
+    <button onclick="mostrarFecha()">Mostrar Fecha</button>
+
+    <button onmouseover="cambiarColorFondoHover()" onmouseout="restaurarColorFondo()">Cambiar Color Hover</button>
+
+    <!-- Nuevo botón para obtener ubicación -->
+
+    <button onclick="obtenerUbicacion()">Obtener Ubicación</button>
+
+    <!-- Div para mostrar la ubicación y el mapa -->
+
+    <div id="ubicacion"></div>
+
+    <!-- Div para mostrar el mapa -->
+
+    <div id="mapa" style="height: 400px;"></div>
+
+  <!-- Leaflet JS -->
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
